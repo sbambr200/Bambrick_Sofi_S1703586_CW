@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Student Name: Sofi Bambrick-->
+<!--Student ID: S1703586-->
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".More"
+    android:orientation="vertical">
+
+<RelativeLayout
+    android:id="@+id/studentlayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Student Details"
+        android:layout_gravity="center"
+        android:layout_centerHorizontal="true"
+        android:textSize="30dp"
+        android:padding="15dp"
+        android:textAlignment="center"
+        android:textStyle="bold"
+        android:background="@color/AliceBlue"
+        android:textColor="@color/black"/>
+
+</RelativeLayout>
+
+    <TextView
+        android:paddingTop="70dp"
+        android:id="@+id/name"
+        android:paddingStart="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Name: Sofi Bambrick"
+        android:textColor="@color/black"
+        android:textSize="25dp"/>
+
+    <TextView
+        android:paddingTop="50dp"
+        android:id="@+id/id"
+        android:paddingStart="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Student ID: S1703586"
+        android:textColor="@color/black"
+        android:textSize="25dp"/>
+
+    <TextView
+        android:paddingTop="50dp"
+        android:id="@+id/info"
+        android:paddingStart="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="This application was created for the 2021 4th year Mobile Platform Development module."
+        android:textColor="@color/black"
+        android:textSize="20dp"/>
+
+</LinearLayout>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Student Name: Sofi Bambrick-->
+<!--Student ID: S1703586-->
+
+<shape xmlns:android="http://schemas.android.com/apk/res/android"
+    android:shape="rectangle">
+
+    <gradient
+        android:startColor="@color/red"
+        android:endColor="@color/yellow"
+        android:angle="270"/>
+
+</shape>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Student Name: Sofi Bambrick-->
+<!--Student ID: S1703586-->
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".More">
+
+    <RelativeLayout
+        android:id="@+id/detaillayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Additional Details"
+            android:layout_gravity="center"
+            android:layout_centerHorizontal="true"
+            android:textSize="30dp"
+            android:padding="15dp"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:background="@color/AliceBlue"
+            android:textColor="@color/black"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:paddingTop="20dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        tools:ignore="MissingConstraints"
+        android:layout_below="@+id/detaillayout">
+
+        <TextView
+            android:padding="5dp"
+            android:textSize="15dp"
+            android:id="@+id/Loc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Location"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:padding="5dp"
+            android:textSize="15dp"
+            android:id="@+id/Cat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Category"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:padding="5dp"
+            android:textSize="15dp"
+            android:id="@+id/Depth"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Depth"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:padding="5dp"
+            android:textSize="15dp"
+            android:id="@+id/Mag"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Magnitude"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:padding="5dp"
+            android:textSize="15dp"
+            android:id="@+id/Pub"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Pub Date"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:padding="5dp"
+            android:textSize="15dp"
+            android:id="@+id/Lat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Latitude"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:padding="5dp"
+            android:textSize="15dp"
+            android:id="@+id/Lon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Longitude"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:padding="5dp"
+            android:textSize="15dp"
+            android:id="@+id/Link"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Link"
+            android:textColor="@color/black"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

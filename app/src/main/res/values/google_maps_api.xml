@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Student Name: Sofi Bambrick-->
+<!--Student ID: S1703586-->
+
+<resources>
+    <string name="google_maps_key" templateMergeStrategy="preserve" translatable="false">AIzaSyCkRyLRuDRJoXqXIrtrwWO8Tkq7GSglAv8</string>
+</resources>
